@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B01C2282B0FDD34002BCA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2272B0FDD34002BCA53 /* AppDelegate.swift */; };
+		1B01C22A2B0FDD34002BCA53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2292B0FDD34002BCA53 /* SceneDelegate.swift */; };
+		1B01C22D2B0FDD34002BCA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C22B2B0FDD34002BCA53 /* LaunchScreen.storyboard */; };
+		1B01C2302B0FDD34002BCA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C22E2B0FDD34002BCA53 /* Main.storyboard */; };
+		1B01C2392B0FDD34002BCA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */; };
+		1B01C23C2B0FDD34002BCA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C23A2B0FDD34002BCA53 /* Main.storyboard */; };
+		1B01C2432B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B01C24D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B01C2532B0FDD34002BCA53 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C20E2B0FDD32002BCA53 /* Main.html */; };
+		1B01C2542B0FDD34002BCA53 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C20E2B0FDD32002BCA53 /* Main.html */; };
+		1B01C2552B0FDD34002BCA53 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2102B0FDD32002BCA53 /* Icon.png */; };
+		1B01C2562B0FDD34002BCA53 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2102B0FDD32002BCA53 /* Icon.png */; };
+		1B01C2572B0FDD34002BCA53 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2112B0FDD32002BCA53 /* Style.css */; };
+		1B01C2582B0FDD34002BCA53 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2112B0FDD32002BCA53 /* Style.css */; };
+		1B01C2592B0FDD34002BCA53 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2122B0FDD32002BCA53 /* Script.js */; };
+		1B01C25A2B0FDD34002BCA53 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2122B0FDD32002BCA53 /* Script.js */; };
+		1B01C25B2B0FDD34002BCA53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2132B0FDD32002BCA53 /* ViewController.swift */; };
+		1B01C25C2B0FDD34002BCA53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2132B0FDD32002BCA53 /* ViewController.swift */; };
+		1B01C25D2B0FDD34002BCA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2142B0FDD34002BCA53 /* Assets.xcassets */; };
+		1B01C25E2B0FDD34002BCA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2142B0FDD34002BCA53 /* Assets.xcassets */; };
+		1B01C25F2B0FDD34002BCA53 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2162B0FDD34002BCA53 /* SafariWebExtensionHandler.swift */; };
+		1B01C2602B0FDD34002BCA53 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2162B0FDD34002BCA53 /* SafariWebExtensionHandler.swift */; };
+		1B01C2612B0FDD34002BCA53 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2182B0FDD34002BCA53 /* _locales */; };
+		1B01C2622B0FDD34002BCA53 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2182B0FDD34002BCA53 /* _locales */; };
+		1B01C2632B0FDD34002BCA53 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2192B0FDD34002BCA53 /* images */; };
+		1B01C2642B0FDD34002BCA53 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2192B0FDD34002BCA53 /* images */; };
+		1B01C2652B0FDD34002BCA53 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21A2B0FDD34002BCA53 /* manifest.json */; };
+		1B01C2662B0FDD34002BCA53 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21A2B0FDD34002BCA53 /* manifest.json */; };
+		1B01C2672B0FDD34002BCA53 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21B2B0FDD34002BCA53 /* background.js */; };
+		1B01C2682B0FDD34002BCA53 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21B2B0FDD34002BCA53 /* background.js */; };
+		1B01C2692B0FDD34002BCA53 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21C2B0FDD34002BCA53 /* content.js */; };
+		1B01C26A2B0FDD34002BCA53 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21C2B0FDD34002BCA53 /* content.js */; };
+		1B01C26B2B0FDD34002BCA53 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21D2B0FDD34002BCA53 /* popup.html */; };
+		1B01C26C2B0FDD34002BCA53 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21D2B0FDD34002BCA53 /* popup.html */; };
+		1B01C26D2B0FDD34002BCA53 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21E2B0FDD34002BCA53 /* popup.css */; };
+		1B01C26E2B0FDD34002BCA53 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21E2B0FDD34002BCA53 /* popup.css */; };
+		1B01C26F2B0FDD34002BCA53 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21F2B0FDD34002BCA53 /* popup.js */; };
+		1B01C2702B0FDD34002BCA53 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C21F2B0FDD34002BCA53 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B01C2442B0FDD34002BCA53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B01C2082B0FDD32002BCA53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B01C2412B0FDD34002BCA53;
+			remoteInfo = "Azure Refresh Button Worshiper Extension (iOS)";
+		};
+		1B01C24E2B0FDD34002BCA53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B01C2082B0FDD32002BCA53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B01C24B2B0FDD34002BCA53;
+			remoteInfo = "Azure Refresh Button Worshiper Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B01C2762B0FDD34002BCA53 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B01C2432B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C27D2B0FDD34002BCA53 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B01C24D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B01C20F2B0FDD32002BCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		1B01C2102B0FDD32002BCA53 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1B01C2112B0FDD32002BCA53 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1B01C2122B0FDD32002BCA53 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1B01C2132B0FDD32002BCA53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B01C2142B0FDD34002BCA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B01C2162B0FDD34002BCA53 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1B01C2182B0FDD34002BCA53 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		1B01C2192B0FDD34002BCA53 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1B01C21A2B0FDD34002BCA53 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		1B01C21B2B0FDD34002BCA53 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		1B01C21C2B0FDD34002BCA53 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		1B01C21D2B0FDD34002BCA53 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		1B01C21E2B0FDD34002BCA53 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		1B01C21F2B0FDD34002BCA53 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		1B01C2242B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure Refresh Button Worshiper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C2272B0FDD34002BCA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B01C2292B0FDD34002BCA53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B01C22C2B0FDD34002BCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B01C22F2B0FDD34002BCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B01C2312B0FDD34002BCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B01C2362B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure Refresh Button Worshiper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B01C23B2B0FDD34002BCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B01C23D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Azure Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
+		1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Azure Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C2472B0FDD34002BCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Azure Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C2512B0FDD34002BCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B01C2522B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Azure Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B01C2212B0FDD34002BCA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2332B0FDD34002BCA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C23F2B0FDD34002BCA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2492B0FDD34002BCA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B01C2072B0FDD32002BCA53 = {
+			isa = PBXGroup;
+			children = (
+				1B01C20C2B0FDD32002BCA53 /* Shared (App) */,
+				1B01C2152B0FDD34002BCA53 /* Shared (Extension) */,
+				1B01C2262B0FDD34002BCA53 /* iOS (App) */,
+				1B01C2372B0FDD34002BCA53 /* macOS (App) */,
+				1B01C2462B0FDD34002BCA53 /* iOS (Extension) */,
+				1B01C2502B0FDD34002BCA53 /* macOS (Extension) */,
+				1B01C2252B0FDD34002BCA53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B01C20C2B0FDD32002BCA53 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2132B0FDD32002BCA53 /* ViewController.swift */,
+				1B01C2142B0FDD34002BCA53 /* Assets.xcassets */,
+				1B01C20D2B0FDD32002BCA53 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1B01C20D2B0FDD32002BCA53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C20E2B0FDD32002BCA53 /* Main.html */,
+				1B01C2102B0FDD32002BCA53 /* Icon.png */,
+				1B01C2112B0FDD32002BCA53 /* Style.css */,
+				1B01C2122B0FDD32002BCA53 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B01C2152B0FDD34002BCA53 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2162B0FDD34002BCA53 /* SafariWebExtensionHandler.swift */,
+				1B01C2172B0FDD34002BCA53 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1B01C2172B0FDD34002BCA53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2182B0FDD34002BCA53 /* _locales */,
+				1B01C2192B0FDD34002BCA53 /* images */,
+				1B01C21A2B0FDD34002BCA53 /* manifest.json */,
+				1B01C21B2B0FDD34002BCA53 /* background.js */,
+				1B01C21C2B0FDD34002BCA53 /* content.js */,
+				1B01C21D2B0FDD34002BCA53 /* popup.html */,
+				1B01C21E2B0FDD34002BCA53 /* popup.css */,
+				1B01C21F2B0FDD34002BCA53 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B01C2252B0FDD34002BCA53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2242B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */,
+				1B01C2362B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */,
+				1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */,
+				1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B01C2262B0FDD34002BCA53 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2272B0FDD34002BCA53 /* AppDelegate.swift */,
+				1B01C2292B0FDD34002BCA53 /* SceneDelegate.swift */,
+				1B01C22B2B0FDD34002BCA53 /* LaunchScreen.storyboard */,
+				1B01C22E2B0FDD34002BCA53 /* Main.storyboard */,
+				1B01C2312B0FDD34002BCA53 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1B01C2372B0FDD34002BCA53 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */,
+				1B01C23A2B0FDD34002BCA53 /* Main.storyboard */,
+				1B01C23D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1B01C2462B0FDD34002BCA53 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2472B0FDD34002BCA53 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1B01C2502B0FDD34002BCA53 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1B01C2512B0FDD34002BCA53 /* Info.plist */,
+				1B01C2522B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B01C2232B0FDD34002BCA53 /* Azure Refresh Button Worshiper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B01C2772B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper (iOS)" */;
+			buildPhases = (
+				1B01C2202B0FDD34002BCA53 /* Sources */,
+				1B01C2212B0FDD34002BCA53 /* Frameworks */,
+				1B01C2222B0FDD34002BCA53 /* Resources */,
+				1B01C2762B0FDD34002BCA53 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B01C2452B0FDD34002BCA53 /* PBXTargetDependency */,
+			);
+			name = "Azure Refresh Button Worshiper (iOS)";
+			productName = "Azure Refresh Button Worshiper (iOS)";
+			productReference = 1B01C2242B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B01C2352B0FDD34002BCA53 /* Azure Refresh Button Worshiper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B01C27E2B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper (macOS)" */;
+			buildPhases = (
+				1B01C2322B0FDD34002BCA53 /* Sources */,
+				1B01C2332B0FDD34002BCA53 /* Frameworks */,
+				1B01C2342B0FDD34002BCA53 /* Resources */,
+				1B01C27D2B0FDD34002BCA53 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B01C24F2B0FDD34002BCA53 /* PBXTargetDependency */,
+			);
+			name = "Azure Refresh Button Worshiper (macOS)";
+			productName = "Azure Refresh Button Worshiper (macOS)";
+			productReference = 1B01C2362B0FDD34002BCA53 /* Azure Refresh Button Worshiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B01C2412B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B01C2732B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper Extension (iOS)" */;
+			buildPhases = (
+				1B01C23E2B0FDD34002BCA53 /* Sources */,
+				1B01C23F2B0FDD34002BCA53 /* Frameworks */,
+				1B01C2402B0FDD34002BCA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Azure Refresh Button Worshiper Extension (iOS)";
+			productName = "Azure Refresh Button Worshiper Extension (iOS)";
+			productReference = 1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1B01C24B2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B01C27A2B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper Extension (macOS)" */;
+			buildPhases = (
+				1B01C2482B0FDD34002BCA53 /* Sources */,
+				1B01C2492B0FDD34002BCA53 /* Frameworks */,
+				1B01C24A2B0FDD34002BCA53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Azure Refresh Button Worshiper Extension (macOS)";
+			productName = "Azure Refresh Button Worshiper Extension (macOS)";
+			productReference = 1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B01C2082B0FDD32002BCA53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1B01C2232B0FDD34002BCA53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1B01C2352B0FDD34002BCA53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1B01C2412B0FDD34002BCA53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1B01C24B2B0FDD34002BCA53 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B01C20B2B0FDD32002BCA53 /* Build configuration list for PBXProject "Azure Refresh Button Worshiper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B01C2072B0FDD32002BCA53;
+			productRefGroup = 1B01C2252B0FDD34002BCA53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B01C2232B0FDD34002BCA53 /* Azure Refresh Button Worshiper (iOS) */,
+				1B01C2352B0FDD34002BCA53 /* Azure Refresh Button Worshiper (macOS) */,
+				1B01C2412B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (iOS) */,
+				1B01C24B2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B01C2222B0FDD34002BCA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C2552B0FDD34002BCA53 /* Icon.png in Resources */,
+				1B01C22D2B0FDD34002BCA53 /* LaunchScreen.storyboard in Resources */,
+				1B01C2532B0FDD34002BCA53 /* Main.html in Resources */,
+				1B01C2592B0FDD34002BCA53 /* Script.js in Resources */,
+				1B01C25D2B0FDD34002BCA53 /* Assets.xcassets in Resources */,
+				1B01C2302B0FDD34002BCA53 /* Main.storyboard in Resources */,
+				1B01C2572B0FDD34002BCA53 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2342B0FDD34002BCA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C2562B0FDD34002BCA53 /* Icon.png in Resources */,
+				1B01C2582B0FDD34002BCA53 /* Style.css in Resources */,
+				1B01C23C2B0FDD34002BCA53 /* Main.storyboard in Resources */,
+				1B01C25A2B0FDD34002BCA53 /* Script.js in Resources */,
+				1B01C25E2B0FDD34002BCA53 /* Assets.xcassets in Resources */,
+				1B01C2542B0FDD34002BCA53 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2402B0FDD34002BCA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C2672B0FDD34002BCA53 /* background.js in Resources */,
+				1B01C26D2B0FDD34002BCA53 /* popup.css in Resources */,
+				1B01C26B2B0FDD34002BCA53 /* popup.html in Resources */,
+				1B01C2632B0FDD34002BCA53 /* images in Resources */,
+				1B01C2652B0FDD34002BCA53 /* manifest.json in Resources */,
+				1B01C2612B0FDD34002BCA53 /* _locales in Resources */,
+				1B01C2692B0FDD34002BCA53 /* content.js in Resources */,
+				1B01C26F2B0FDD34002BCA53 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C24A2B0FDD34002BCA53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C2682B0FDD34002BCA53 /* background.js in Resources */,
+				1B01C26E2B0FDD34002BCA53 /* popup.css in Resources */,
+				1B01C26C2B0FDD34002BCA53 /* popup.html in Resources */,
+				1B01C2642B0FDD34002BCA53 /* images in Resources */,
+				1B01C2662B0FDD34002BCA53 /* manifest.json in Resources */,
+				1B01C2622B0FDD34002BCA53 /* _locales in Resources */,
+				1B01C26A2B0FDD34002BCA53 /* content.js in Resources */,
+				1B01C2702B0FDD34002BCA53 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B01C2202B0FDD34002BCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C25B2B0FDD34002BCA53 /* ViewController.swift in Sources */,
+				1B01C2282B0FDD34002BCA53 /* AppDelegate.swift in Sources */,
+				1B01C22A2B0FDD34002BCA53 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2322B0FDD34002BCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C25C2B0FDD34002BCA53 /* ViewController.swift in Sources */,
+				1B01C2392B0FDD34002BCA53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C23E2B0FDD34002BCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C25F2B0FDD34002BCA53 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B01C2482B0FDD34002BCA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C2602B0FDD34002BCA53 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B01C2452B0FDD34002BCA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B01C2412B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (iOS) */;
+			targetProxy = 1B01C2442B0FDD34002BCA53 /* PBXContainerItemProxy */;
+		};
+		1B01C24F2B0FDD34002BCA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B01C24B2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension (macOS) */;
+			targetProxy = 1B01C24E2B0FDD34002BCA53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B01C20E2B0FDD32002BCA53 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B01C20F2B0FDD32002BCA53 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1B01C22B2B0FDD34002BCA53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B01C22C2B0FDD34002BCA53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B01C22E2B0FDD34002BCA53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B01C22F2B0FDD34002BCA53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B01C23A2B0FDD34002BCA53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B01C23B2B0FDD34002BCA53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B01C2712B0FDD34002BCA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B01C2722B0FDD34002BCA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1B01C2742B0FDD34002BCA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B01C2752B0FDD34002BCA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B01C2782B0FDD34002BCA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B01C2792B0FDD34002BCA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B01C27B2B0FDD34002BCA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B01C27C2B0FDD34002BCA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1B01C27F2B0FDD34002BCA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B01C2802B0FDD34002BCA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MW986L9TXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_NAME = "Azure Refresh Button Worshiper";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B01C20B2B0FDD32002BCA53 /* Build configuration list for PBXProject "Azure Refresh Button Worshiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B01C2712B0FDD34002BCA53 /* Debug */,
+				1B01C2722B0FDD34002BCA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B01C2732B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B01C2742B0FDD34002BCA53 /* Debug */,
+				1B01C2752B0FDD34002BCA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B01C2772B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B01C2782B0FDD34002BCA53 /* Debug */,
+				1B01C2792B0FDD34002BCA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B01C27A2B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B01C27B2B0FDD34002BCA53 /* Debug */,
+				1B01C27C2B0FDD34002BCA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B01C27E2B0FDD34002BCA53 /* Build configuration list for PBXNativeTarget "Azure Refresh Button Worshiper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B01C27F2B0FDD34002BCA53 /* Debug */,
+				1B01C2802B0FDD34002BCA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B01C2082B0FDD32002BCA53 /* Project object */;
+}
