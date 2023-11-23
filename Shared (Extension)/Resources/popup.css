@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 100px;
+    width: 260px;
     padding: 10px;
 
     font-family: system-ui;
@@ -13,3 +13,12 @@ body {
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container p {
+    margin-right: 30px; /* Space between text and toggle switch */
+    }

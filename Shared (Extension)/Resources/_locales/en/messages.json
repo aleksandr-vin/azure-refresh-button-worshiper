@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Azure Refresh Button Worshiper. You should tell us what your extension does here.",
+        "message": "☞ Is it possible to overcome the need of hitting 🔄 Refresh button in Azure portal pages?\n☞ Yes!\n\n🛐 I will click them every 🔟 seconds when there are no 🖱️ or ⌨️ activity on the page.",
         "description": "Description of what the extension does."
     }
 }
