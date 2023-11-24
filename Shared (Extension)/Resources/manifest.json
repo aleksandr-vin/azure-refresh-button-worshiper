@@ -20,6 +20,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
+        "css": [ "styles.css" ],
         "matches": [ "https://*.azure.com/*" ]
     }],
 
@@ -35,5 +36,5 @@
         }
     },
 
-    "permissions": [ "storage" ]
+    "permissions": [ ]
 }
