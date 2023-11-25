@@ -1,6 +1,19 @@
 .arb-worship-effect {
-    background-color: rgba(242, 0, 0, 0.6);;
-    color: white;
+/*    background-color: rgba(242, 0, 0, 0.6);*/
+    animation: arbWorshipFire 0.314s linear infinite;
+/*    color: white;*/
 }
 
-/* FIXME: This file is not loaded in Safari!!! */
+@keyframes arbWorshipFire {
+    0% { background-color: white; opacity: 0.7; } /* White */
+    10% { background-color: #f2f2f2; opacity: 0.7; } /* Very Light Gray */
+    20% { background-color: #e6e6e6; opacity: 0.7; } /* Light Gray */
+    30% { background-color: #cccccc; opacity: 0.7; } /* Gray */
+    40% { background-color: #ff9999; opacity: 0.7; } /* Light Red */
+    50% { background-color: #ff6666; opacity: 0.7; color: white; } /* Medium Light Red */
+    60% { background-color: #ff3333; opacity: 0.7; color: white; } /* Red */
+    70% { background-color: #cc0000; opacity: 0.7; color: white; } /* Dark Red */
+    80% { background-color: #990000; opacity: 0.7; color: white; } /* Darker Red */
+    90% { background-color: #800000; opacity: 0.7; color: white; } /* Maroon */
+    100% { background-color: #660000; opacity: 0.7; color: white; } /* Very Dark Red */
+}
