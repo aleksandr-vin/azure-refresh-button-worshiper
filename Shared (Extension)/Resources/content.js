@@ -1,11 +1,9 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-});
+//browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
+//    console.log("Received request: ", request);
+//});
 
 
 console.debug("Azure Refresh Button Worshiper entered the room");
-
-console.log("TODO: add toggle switch to popup menu");
 
 
 const pushTheButton = (e) => {
@@ -22,8 +20,6 @@ const pushTheButton = (e) => {
 
         e.click();
     }, 314);
-
-
 }
 
 
@@ -35,14 +31,19 @@ const resetWorshipTimer = () => {
         clearTimeout(worshipTimer);
     }
     worshipTimer = setTimeout(() => {
-        const notWorshippingAzureRefreshButtons = localStorage.getItem('notWorshippingAzureRefreshButtons');
-        console.log("[content] notWorshippingAzureRefreshButtons", notWorshippingAzureRefreshButtons);
-        if (notWorshippingAzureRefreshButtons !== 'yes') {
-            console.log("Are there any Refresh buttons or div elements?..");
-            document
-                .querySelectorAll('button.fui-Button[name="Refresh"], button.fui-Button[aria-label="Refresh"], div.azc-toolbarButton-container[title="Refresh"], div.azc-toolbarButton-container[aria-label="Refresh"]')
-                .forEach(pushTheButton);
-        }
+        browser.runtime.sendMessage({ worshipping: "?" }).then((response) => {
+            //console.log("Received response: ", response);
+            if (response) {
+                const worshipping = response.worshipping;
+                if (worshipping === 'yes') {
+                    console.log("Are there any Refresh buttons or div elements?..");
+                    document
+                    .querySelectorAll('button.fui-Button[name="Refresh"], button.fui-Button[aria-label="Refresh"], div.azc-toolbarButton-container[title="Refresh"], div.azc-toolbarButton-container[aria-label="Refresh"]')
+                    .forEach(pushTheButton);
+                }
+            }
+        });
+
         resetWorshipTimer();
     }, 10000);
     //console.debug("new timeout set");

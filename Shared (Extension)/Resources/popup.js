@@ -1,16 +1,17 @@
 console.log("Azure Refresh Button Worshiper popup!", browser);
 
-
 document.addEventListener('DOMContentLoaded', function() {
-    var worshiperCheckbox = document.getElementById('worshiperCheckbox');
 
-    // Load the saved state from settings
-    const notWorshippingAzureRefreshButtons = localStorage.getItem('notWorshippingAzureRefreshButtons');
-    console.log("[popup] notWorshippingAzureRefreshButtons", notWorshippingAzureRefreshButtons);
-    document.getElementById('worshiperCheckbox').checked = notWorshippingAzureRefreshButtons !== 'yes';
+    browser.runtime.sendMessage({ worshipping: "?" }).then((response) => {
+        console.log("Received response: ", response);
+        var worshiperCheckbox = document.getElementById('worshiperCheckbox');
+        document.getElementById('worshiperCheckbox').checked = (response.worshipping ?? "yes") !== "no";
+    });
 
     // Save the new state to settings when changed
     worshiperCheckbox.addEventListener('change', function() {
-        localStorage.setItem('notWorshippingAzureRefreshButtons', this.checked ? 'no' : 'yes');
+        browser.runtime.sendMessage({ worshipping: this.checked ? "yes" : "no" }).then((response) => {
+            console.log("Received response: ", response);
+        });
     });
 });

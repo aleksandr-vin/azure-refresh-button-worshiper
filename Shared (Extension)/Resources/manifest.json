@@ -36,5 +36,5 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "storage" ]
 }
