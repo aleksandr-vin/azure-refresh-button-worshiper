@@ -21,5 +21,25 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
         keepMessageChannelOpen = true; // Keep the message channel open for the asynchronous response
     }
 
+    if (request.worshipped === "+1") {
+        chrome.storage.local.get(['worshipped'], (result) => {
+            chrome.storage.local.set({ 'worshipped': (result.worshipped ?? 0) + 1 }, () => {
+                console.log('Worshipped', result.worshipped);
+                setTimeout(() => {
+                    // Updating popup after 1 second
+                    browser.runtime.sendMessage({ worshipped: result.worshipped });
+                }, 1000);
+            });
+        });
+    }
+
+    if (request.worshipped === "?") {
+        chrome.storage.local.get(['worshipped'], (result) => {
+            sendResponse({ worshipped: result.worshipped ?? 0 });
+        });
+
+        keepMessageChannelOpen = true; // Keep the message channel open for the asynchronous response
+    }
+
     return keepMessageChannelOpen;
 });

@@ -9,6 +9,7 @@ const pushTheButton = (e) => {
     setTimeout(() => {
         e.classList.remove('arb-worship-effect');
         e.click();
+        browser.runtime.sendMessage({ worshipped: "+1" });
     }, 314);
 }
 

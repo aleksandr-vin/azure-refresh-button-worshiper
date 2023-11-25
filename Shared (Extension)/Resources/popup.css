@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 260px;
+    width: 300px;
     padding: 10px;
 
     font-family: system-ui;
@@ -15,12 +15,10 @@ body {
 }
 
 .container {
-    display: flex;
+/*    display: flex;*/
     align-items: center;
 }
 
-.container p {
-    margin-right: 30px; /* Space between text and toggle switch */
-    }
-
-
+.container strong {
+    margin-left: 6px; /* Space between text and toggle switch */
+}
