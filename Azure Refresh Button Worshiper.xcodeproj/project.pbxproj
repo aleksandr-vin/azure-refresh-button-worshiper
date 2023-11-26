@@ -663,7 +663,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
@@ -679,7 +679,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -696,7 +696,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
@@ -712,7 +712,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -731,7 +731,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
@@ -752,7 +752,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -769,7 +769,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
@@ -790,7 +790,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -807,7 +807,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -824,7 +824,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -841,7 +841,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -858,7 +858,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -876,7 +876,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
@@ -894,7 +894,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -911,7 +911,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MW986L9TXQ;
+				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper";
@@ -929,7 +929,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xvygyjau.Azure-Refresh-Button-Worshiper";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper;
 				PRODUCT_NAME = "Azure Refresh Button Worshiper";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
