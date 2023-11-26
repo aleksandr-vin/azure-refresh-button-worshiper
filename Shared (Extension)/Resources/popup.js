@@ -1,9 +1,41 @@
 console.log("Azure Refresh Button Worshiper popup!", browser);
 
+const formatSeconds = (seconds) => {
+    if (seconds < 120) {
+        return seconds + "s";
+    } else if (seconds < 3600) {
+        let minutes = Math.floor(seconds / 60);
+        let remainingSeconds = seconds % 60;
+        return minutes + "m " + remainingSeconds + "s";
+    } else {
+        let hours = Math.floor(seconds / 3600);
+        let minutes = Math.floor((seconds % 3600) / 60);
+        let remainingSeconds = seconds % 60;
+        return hours + "h " + minutes + "m " + remainingSeconds + "s";
+    }
+}
+
+const setTimeSaved = (clicks) => {
+    const SECONDS_PER_CLICK = 0.13;
+    const seconds = Math.floor(clicks * SECONDS_PER_CLICK);
+    document
+        .getElementById('timeSaved')
+        .textContent = formatSeconds(seconds);
+}
+
+const setAmountWorshipped = (times) => {
+    document
+        .getElementById('amountWorshipped')
+        .textContent = times;
+}
+
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.worshipped) {
-        const e = document.getElementById('amountWorshipped')
-        e.textContent = request.worshipped ?? "0";
+        setAmountWorshipped(request.worshipped ?? 0);
+
+        if (request.worshipped != "+1") {
+            setTimeSaved(request.worshipped ?? 0);
+        }
     }
 });
 
@@ -23,6 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     browser.runtime.sendMessage({ worshipped: "?" }).then((response) => {
         console.log("Received response: ", response);
-        document.getElementById('amountWorshipped').textContent = response.worshipped ?? "0";
+        setAmountWorshipped(response.worshipped ?? 0);
+        setTimeSaved(response.worshipped ?? 0);
     });
 });
