@@ -1,4 +1,19 @@
-console.log("Azure Refresh Button Worshiper popup!", browser);
+
+const sendMessage = (msg) => {
+    if (typeof browser !== 'undefined') {
+        return browser.runtime.sendMessage(msg);
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.runtime.sendMessage(msg);
+    }
+};
+
+const onMessage = () => {
+    if (typeof browser !== 'undefined') {
+        return browser.runtime.onMessage;
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.runtime.onMessage;
+    }
+};
 
 const formatSeconds = (seconds) => {
     if (seconds < 120) {
@@ -29,7 +44,7 @@ const setAmountWorshipped = (times) => {
         .textContent = times;
 }
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
+onMessage().addListener((request, sender, sendResponse) => {
     if (request.worshipped) {
         setAmountWorshipped(request.worshipped ?? 0);
 
@@ -39,21 +54,21 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
 
-    browser.runtime.sendMessage({ worshipping: "?" }).then((response) => {
+    sendMessage({ worshipping: "?" }).then((response) => {
         console.log("Received response: ", response);
         document.getElementById('worshiperCheckbox').checked = (response.worshipping ?? "yes") !== "no";
     });
 
     // Save the new state to settings when changed
-    worshiperCheckbox.addEventListener('change', function() {
-        browser.runtime.sendMessage({ worshipping: this.checked ? "yes" : "no" }).then((response) => {
+    worshiperCheckbox.addEventListener('change', function () {
+        sendMessage({ worshipping: this.checked ? "yes" : "no" }).then((response) => {
             console.log("Received response: ", response);
         });
     });
 
-    browser.runtime.sendMessage({ worshipped: "?" }).then((response) => {
+    sendMessage({ worshipped: "?" }).then((response) => {
         console.log("Received response: ", response);
         setAmountWorshipped(response.worshipped ?? 0);
         setTimeSaved(response.worshipped ?? 0);

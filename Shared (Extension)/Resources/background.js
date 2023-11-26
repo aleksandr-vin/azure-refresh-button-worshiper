@@ -1,4 +1,22 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
+
+
+const sendMessage = (msg) => {
+    if (typeof browser !== 'undefined') {
+        return browser.runtime.sendMessage(msg);
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.runtime.sendMessage(msg);
+    }
+};
+
+const onMessage = () => {
+    if (typeof browser !== 'undefined') {
+        return browser.runtime.onMessage;
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.runtime.onMessage;
+    }
+};
+
+onMessage().addListener((request, sender, sendResponse) => {
     //console.log("Received request: ", request);
 
     var keepMessageChannelOpen = false;
@@ -27,7 +45,7 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
                 console.log('Worshipped', result.worshipped);
                 setTimeout(() => {
                     // Updating popup after 1 second
-                    browser.runtime.sendMessage({ worshipped: result.worshipped });
+                    sendMessage({ worshipped: result.worshipped });
                 }, 1000);
             });
         });
