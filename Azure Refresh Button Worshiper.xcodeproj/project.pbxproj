@@ -124,8 +124,8 @@
 		1B01C2522B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Azure Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
 		1B01C2882B10ADA2002BCA53 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		1B01C28B2B139D5E002BCA53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1B01C28C2B139DB6002BCA53 /* azure-refresh-button-worshiper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "azure-refresh-button-worshiper.png"; sourceTree = "<group>"; };
 		1B01C28D2B13A0EC002BCA53 /* stillframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stillframe.png; sourceTree = "<group>"; };
+		1B01C28E2B13A3F0002BCA53 /* Post Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Post Icon-128.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,9 +163,9 @@
 		1B01C2072B0FDD32002BCA53 = {
 			isa = PBXGroup;
 			children = (
+				1B01C28E2B13A3F0002BCA53 /* Post Icon-128.png */,
 				1B01C28B2B139D5E002BCA53 /* README.md */,
 				1B01C28D2B13A0EC002BCA53 /* stillframe.png */,
-				1B01C28C2B139DB6002BCA53 /* azure-refresh-button-worshiper.png */,
 				1B01C20C2B0FDD32002BCA53 /* Shared (App) */,
 				1B01C2152B0FDD34002BCA53 /* Shared (Extension) */,
 				1B01C2262B0FDD34002BCA53 /* iOS (App) */,
