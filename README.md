@@ -9,4 +9,4 @@ Only on `https://*.azure.com/*`.
 
 Check on video:
 
-<video src="https://vimeo.com/888433348/f74eb27541"></video>
+[![Azure Refresh Button Worshiper in action](post-video.gif)](https://aleksandr.vin/a-link-to-app-store)
