@@ -16,7 +16,7 @@ import SafariServices
 typealias PlatformViewController = NSViewController
 #endif
 
-let extensionBundleIdentifier = "com.xvygyjau.Azure-Refresh-Button-Worshiper.Extension"
+let extensionBundleIdentifier = "com.xvygyjau.AzureRefreshButtonWorshiper.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
 
