@@ -1,7 +1,3 @@
-//browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-//    console.log("Received request: ", request);
-//});
-
 { // Block used to avoid setting global variables
 
     const sendMessage = (msg) => {
@@ -52,8 +48,6 @@
         resetWorshipTimer();
     });
 
-
     console.debug("Azure Refresh Button Worshiper entered the room");
     resetWorshipTimer();
-
 }

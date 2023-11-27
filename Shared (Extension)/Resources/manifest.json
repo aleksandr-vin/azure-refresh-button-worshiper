@@ -1,11 +1,9 @@
 {
     "manifest_version": 3,
     "default_locale": "en",
-
     "name": "Azure Refresh Button Worshiper",
     "description": "☞ Is it possible to overcome the need of hitting 🔄 Refresh button in Azure portal pages?\n☞ Yes!\n\n🛐 I will click them every 🔟 seconds when there are no 🖱️ or ⌨️ activity on the page.",
-    "version": "0.0.0",
-
+    "version": "1.0.0",
     "icons": {
         "48": "images/icon-48.png",
         "96": "images/icon-96.png",
@@ -13,17 +11,22 @@
         "256": "images/icon-256.png",
         "512": "images/icon-512.png"
     },
-
     "background": {
         "service_worker": "background.js"
     },
-
-    "content_scripts": [{
-        "css": [ "styles.css" ],
-        "js": [ "content.js" ],
-        "matches": [ "https://*.azure.com/*" ]
-    }],
-
+    "content_scripts": [
+        {
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://*.azure.com/*"
+            ]
+        }
+    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -35,6 +38,7 @@
             "72": "images/toolbar-icon-72.png"
         }
     },
-
-    "permissions": [ "storage" ]
+    "permissions": [
+        "storage"
+    ]
 }
