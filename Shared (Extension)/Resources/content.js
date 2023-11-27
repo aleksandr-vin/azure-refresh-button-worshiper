@@ -9,6 +9,7 @@
     };
 
     const pushTheButton = (e) => {
+        //console.log("Worshipping", e);
         e.classList.add('arb-worship-effect');
 
         setTimeout(() => {
@@ -30,7 +31,7 @@
                     const worshipping = response.worshipping;
                     if (worshipping === 'yes') {
                         document
-                            .querySelectorAll('button.fui-Button[name="Refresh"], button.fui-Button[aria-label="Refresh"], div.azc-toolbarButton-container[title="Refresh"], div.azc-toolbarButton-container[aria-label="Refresh"]')
+                            .querySelectorAll('button.fui-Button[name="Refresh"], button.fui-Button[aria-label="Refresh"], div.azc-toolbarButton-container[title="Refresh"], div.azc-toolbarButton-container[aria-label="Refresh"], button.ms-Button[name="Refresh"], button.ms-Button[aria-label="Refresh"]')
                             .forEach(pushTheButton);
                     }
                 }
@@ -48,6 +49,6 @@
         resetWorshipTimer();
     });
 
-    console.debug("Azure Refresh Button Worshiper entered the room");
+    console.debug("Azure Refresh Button Worshiper entered the room", window.location.href);
     resetWorshipTimer();
 }

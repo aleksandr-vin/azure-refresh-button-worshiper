@@ -24,7 +24,8 @@
             ],
             "matches": [
                 "https://*.azure.com/*"
-            ]
+            ],
+            "all_frames": true
         }
     ],
     "action": {
