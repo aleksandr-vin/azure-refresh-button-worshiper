@@ -4,7 +4,89 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "☞ Is it possible to overcome the need of hitting 🔄 Refresh button in Azure portal pages?\n☞ Yes!\n\n🛐 I will click them every 🔟 seconds when there are no 🖱️ or ⌨️ activity on the page.",
+        "message": "☞ Is it possible to overcome the need of hitting 🔄 Refresh button in Azure portal pages?\n☞ Yes!\n\n🛐 I will click them every 🔟 seconds when there are no 🖱️ or ⌨️ activity on the page.",
         "description": "Description of what the extension does."
+    },
+    "highligh_refresh_buttons_command": {
+        "message": "Highligh refresh buttons",
+        "description": "The display name for the command."
+    },
+    "toggle_worshipping_command": {
+        "message": "Toggle worshipping",
+        "description": "The display name for the command."
+    },
+    "refresh_buttons_worshipped": {
+        "message": "Refresh Buttons Worshipped",
+        "description": "The text after number of Refresh Buttons Worshipped"
+    },
+    "and_maybe_": {
+        "message": "and maybe",
+        "description": "First part of 'and maybe XXm XXs saved' text"
+    },
+    "_saved": {
+        "message": "saved",
+        "description": "Last part of 'and maybe XXm XXs saved' text"
+    },
+    "on_(portal)": {
+        "message": "on",
+        "description": "The 'on' for 'on portal' text"
+    },
+    "worship_more": {
+        "message": "Worship more?",
+        "description": "The question for toggle switch to continue worshipping refresh buttons"
+    },
+    "like_part": {
+        "message": "Like",
+        "description": "The begining of 'Like Azure Refresh Button Worshiper?' question"
+    },
+    "site": {
+        "message": "site",
+        "description": "The 'site' text, naming the link to the official site"
+    },
+    "tweet": {
+        "message": "tweet",
+        "description": "The 'tweet' text, naming the action/link to tweet about us"
+    },
+    "short_secods": {
+        "message": "$SECONDS$s",
+        "description": "Tells the user amount of seconds",
+        "placeholders": {
+            "seconds": {
+                "content": "$1",
+                "example": "59"
+            }
+        }
+    },
+    "short_minutes_seconds": {
+        "message": "$MINUTES$m $SECONDS$s",
+        "description": "Tells the user amount of minutes and seconds",
+        "placeholders": {
+            "minutes": {
+                "content": "$1",
+                "example": "5"
+            },
+            "seconds": {
+                "content": "$1",
+                "example": "59"
+            }
+        }
+    },
+    "short_hours_minutes_seconds": {
+        "message": "$HOURS$h $MINUTES$m $SECONDS$s",
+        "description": "Tells the user amount of hours, minutes and seconds",
+        "placeholders": {
+            "hours": {
+                "content": "$1",
+                "example": "312"
+            },
+            "minutes": {
+                "content": "$1",
+                "example": "5"
+            },
+            "seconds": {
+                "content": "$1",
+                "example": "59"
+            }
+        }
     }
 }

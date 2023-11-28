@@ -1,7 +1,9 @@
 .arb-worship-effect {
-/*    background-color: rgba(242, 0, 0, 0.6);*/
     animation: arbWorshipFire 0.314s linear infinite;
-/*    color: white;*/
+}
+
+.arb-slow-worship-effect {
+    animation: arbWorshipFire 1.314s linear infinite;
 }
 
 @keyframes arbWorshipFire {

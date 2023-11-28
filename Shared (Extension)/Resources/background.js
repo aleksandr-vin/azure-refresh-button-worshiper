@@ -16,6 +16,33 @@ const onMessage = () => {
     }
 };
 
+const onCommand = () => {
+    if (typeof browser !== 'undefined') {
+        return browser.commands.onCommand;
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.commands.onCommand;
+    }
+};
+
+onCommand().addListener((command) => {
+    if (command === "highligh-refresh-buttons") {
+        //console.log("Toggling the highligh-refresh-buttons feature!");
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+            chrome.tabs.sendMessage(tabs[0].id, {action: "highligh-refresh-buttons"}, function(response) {});
+        });
+    }
+
+    if (command === "toggle-worshipping") {
+        chrome.storage.local.get(['worshipping'], (result) => {
+            //console.log('Loaded setting:', result);
+            const worshipping = (result.worshipping ?? "yes") === "yes" ? "no" : "yes";
+            chrome.storage.local.set({ 'worshipping': worshipping }, () => {
+                console.log('Changed worshipping to', worshipping);
+            });
+        });
+    }
+});
+
 onMessage().addListener((request, sender, sendResponse) => {
     //console.log("Received request: ", request);
 
