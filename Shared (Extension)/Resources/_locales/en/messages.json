@@ -27,7 +27,7 @@
         "message": "saved",
         "description": "Last part of 'and maybe XXm XXs saved' text"
     },
-    "on_(portal)": {
+    "on_portal": {
         "message": "on",
         "description": "The 'on' for 'on portal' text"
     },

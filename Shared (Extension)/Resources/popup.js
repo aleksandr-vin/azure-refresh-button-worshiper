@@ -1,5 +1,13 @@
 'use strict';
 
+const i18n = () => {
+    if (typeof browser !== 'undefined') {
+        return browser.i18n;
+    } else if (typeof chrome !== 'undefined') {
+        return chrome.i18n;
+    }
+};
+
 // Translation
 // Check if a custom attribute is being translated using [attribute]key
 const trAttribute = (key) => {
@@ -19,7 +27,7 @@ for (const item of items) {
         [ attr, key ] = trAttribute(key);
 
         const placeholder = item.getAttribute('data-i18n-placeholder');
-        const translated = (placeholder ? browser.i18n.getMessage(key, placeholder) : browser.i18n.getMessage(key));
+        const translated = (placeholder ? i18n().getMessage(key, placeholder) : i18n().getMessage(key));
         if (translated === "") {
             console.error("translation not found for", item);
         }
@@ -55,16 +63,16 @@ const onMessage = () => {
 
 const formatSeconds = (seconds) => {
     if (seconds < 120) {
-        return browser.i18n.getMessage("short_secods", seconds.toString());
+        return i18n().getMessage("short_secods", seconds.toString());
     } else if (seconds < 3600) {
         let minutes = Math.floor(seconds / 60);
         let remainingSeconds = seconds % 60;
-        return browser.i18n.getMessage("short_minutes_seconds", [minutes.toString(), remainingSeconds.toString()]);
+        return i18n().getMessage("short_minutes_seconds", [minutes.toString(), remainingSeconds.toString()]);
     } else {
         let hours = Math.floor(seconds / 3600);
         let minutes = Math.floor((seconds % 3600) / 60);
         let remainingSeconds = seconds % 60;
-        return browser.i18n.getMessage("short_hours_minutes_seconds", [hours.toString(), minutes.toString(), remainingSeconds.toString()]);
+        return i18n().getMessage("short_hours_minutes_seconds", [hours.toString(), minutes.toString(), remainingSeconds.toString()]);
     }
 }
 
