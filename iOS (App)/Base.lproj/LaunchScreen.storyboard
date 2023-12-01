@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6HG-Um-bch">
-                                <rect key="frame" x="0.0" y="256" width="414" height="384"/>
+                                <rect key="frame" x="0.0" y="274" width="430" height="384"/>
                                 <imageReference key="image" image="Icon.png"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6HG-Um-bch" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LTh-x2-wec"/>
-                            <constraint firstItem="6HG-Um-bch" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RVx-VC-pfY"/>
-                            <constraint firstItem="6HG-Um-bch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wsR-pz-EzO"/>
+                            <constraint firstItem="6HG-Um-bch" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BvO-1o-f7z"/>
+                            <constraint firstItem="6HG-Um-bch" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WrM-BR-ybh"/>
+                            <constraint firstItem="6HG-Um-bch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="g3W-NG-M6g"/>
                         </constraints>
                     </view>
                 </viewController>

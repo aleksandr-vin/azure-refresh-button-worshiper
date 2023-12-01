@@ -7,7 +7,7 @@
 :root {
     color-scheme: light dark;
 
-    --spacing: 20px;
+    --spacing: 5px;
 }
 
 html {
@@ -26,6 +26,16 @@ body {
 
     font: -apple-system-short-body;
     text-align: center;
+}
+
+.secondary-text {
+    color: grey;
+}
+
+.how-to-use {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
 }
 
 body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
@@ -61,5 +71,29 @@ button {
 }
 
 .move-image {
-    transform: translateX(37%);
+/*    animation: slide 10s linear infinite;*/
+}
+
+.image-box {
+/*    position: absolute; /* Allows the image to move freely across the screen */
+/*    top: 3%;*/
+    animation: pulse 60s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(100%); /* Start off-screen to the right */
+    }
+    to {
+        transform: translateX(-100%); /* End off-screen to the left */
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.5); /* 100% scale */
+    }
+    50% {
+        transform: scale(0.45); /* 90% scale */
+    }
 }
