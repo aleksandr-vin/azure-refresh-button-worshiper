@@ -13,8 +13,8 @@
 		1B01C2302B0FDD34002BCA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C22E2B0FDD34002BCA53 /* Main.storyboard */; };
 		1B01C2392B0FDD34002BCA53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */; };
 		1B01C23C2B0FDD34002BCA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C23A2B0FDD34002BCA53 /* Main.storyboard */; };
-		1B01C2432B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1B01C24D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B01C2432B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C2422B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B01C24D2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1B01C24C2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1B01C2532B0FDD34002BCA53 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C20E2B0FDD32002BCA53 /* Main.html */; };
 		1B01C2542B0FDD34002BCA53 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C20E2B0FDD32002BCA53 /* Main.html */; };
 		1B01C2552B0FDD34002BCA53 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B01C2102B0FDD32002BCA53 /* Icon.png */; };
@@ -55,14 +55,14 @@
 			containerPortal = 1B01C2082B0FDD32002BCA53 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1B01C2412B0FDD34002BCA53;
-			remoteInfo = "Azure Refresh Button Worshiper Extension (iOS)";
+			remoteInfo = "Cerulean Refresh Button Worshiper Extension (iOS)";
 		};
 		1B01C24E2B0FDD34002BCA53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B01C2082B0FDD32002BCA53 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1B01C24B2B0FDD34002BCA53;
-			remoteInfo = "Azure Refresh Button Worshiper Extension (macOS)";
+			remoteInfo = "Cerulean Refresh Button Worshiper Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,7 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1B01C2432B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
+				1B01C2432B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +84,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1B01C24D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
+				1B01C24D2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,12 +116,12 @@
 		1B01C2362B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cerulean Refresh Button Worshiper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B01C23B2B0FDD34002BCA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B01C23D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Azure Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
-		1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Azure Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C23D2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cerulean Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
+		1B01C2422B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cerulean Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B01C2472B0FDD34002BCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Azure Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B01C24C2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cerulean Refresh Button Worshiper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B01C2512B0FDD34002BCA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B01C2522B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Azure Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
+		1B01C2522B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cerulean Refresh Button Worshiper.entitlements"; sourceTree = "<group>"; };
 		1B01C2882B10ADA2002BCA53 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		1B01C28B2B139D5E002BCA53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B01C28E2B13A3F0002BCA53 /* post-icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post-icon-128.png"; sourceTree = "<group>"; };
@@ -227,8 +227,8 @@
 			children = (
 				1B01C2242B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.app */,
 				1B01C2362B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.app */,
-				1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */,
-				1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */,
+				1B01C2422B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */,
+				1B01C24C2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			children = (
 				1B01C2382B0FDD34002BCA53 /* AppDelegate.swift */,
 				1B01C23A2B0FDD34002BCA53 /* Main.storyboard */,
-				1B01C23D2B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */,
+				1B01C23D2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				1B01C2512B0FDD34002BCA53 /* Info.plist */,
-				1B01C2522B0FDD34002BCA53 /* Azure Refresh Button Worshiper.entitlements */,
+				1B01C2522B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.entitlements */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -290,7 +290,7 @@
 				1B01C2452B0FDD34002BCA53 /* PBXTargetDependency */,
 			);
 			name = "Cerulean Refresh Button Worshiper (iOS)";
-			productName = "Azure Refresh Button Worshiper (iOS)";
+			productName = "Cerulean Refresh Button Worshiper (iOS)";
 			productReference = 1B01C2242B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -309,7 +309,7 @@
 				1B01C24F2B0FDD34002BCA53 /* PBXTargetDependency */,
 			);
 			name = "Cerulean Refresh Button Worshiper (macOS)";
-			productName = "Azure Refresh Button Worshiper (macOS)";
+			productName = "Cerulean Refresh Button Worshiper (macOS)";
 			productReference = 1B01C2362B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -326,8 +326,8 @@
 			dependencies = (
 			);
 			name = "Cerulean Refresh Button Worshiper Extension (iOS)";
-			productName = "Azure Refresh Button Worshiper Extension (iOS)";
-			productReference = 1B01C2422B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */;
+			productName = "Cerulean Refresh Button Worshiper Extension (iOS)";
+			productReference = 1B01C2422B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		1B01C24B2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension (macOS) */ = {
@@ -343,8 +343,8 @@
 			dependencies = (
 			);
 			name = "Cerulean Refresh Button Worshiper Extension (macOS)";
-			productName = "Azure Refresh Button Worshiper Extension (macOS)";
-			productReference = 1B01C24C2B0FDD34002BCA53 /* Azure Refresh Button Worshiper Extension.appex */;
+			productName = "Cerulean Refresh Button Worshiper Extension (macOS)";
+			productReference = 1B01C24C2B0FDD34002BCA53 /* Cerulean Refresh Button Worshiper Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -666,7 +666,7 @@
 				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cerulean Refresh Button Worshiper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -680,7 +680,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
-				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				PRODUCT_NAME = "Cerulean Refresh Button Worshiper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -699,7 +699,7 @@
 				DEVELOPMENT_TEAM = DYBARU2854;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cerulean Refresh Button Worshiper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -713,7 +713,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
-				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				PRODUCT_NAME = "Cerulean Refresh Button Worshiper Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -806,14 +806,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Cerulean Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cerulean Refresh Button Worshiper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -827,7 +827,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
-				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				PRODUCT_NAME = "Cerulean Refresh Button Worshiper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -840,14 +840,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Cerulean Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DYBARU2854;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Azure Refresh Button Worshiper Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cerulean Refresh Button Worshiper Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -861,7 +861,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xvygyjau.AzureRefreshButtonWorshiper.Extension;
-				PRODUCT_NAME = "Azure Refresh Button Worshiper Extension";
+				PRODUCT_NAME = "Cerulean Refresh Button Worshiper Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -875,7 +875,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Cerulean Refresh Button Worshiper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = DYBARU2854;
@@ -911,7 +911,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Azure Refresh Button Worshiper.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Cerulean Refresh Button Worshiper.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
