@@ -102,6 +102,14 @@ onMessage().addListener((request, sender, sendResponse) => {
 
 document.addEventListener('DOMContentLoaded', function () {
 
+    // disabling buy_me_a_coffee in Safari
+    if (typeof browser !== 'undefined') {
+        const element = document.getElementById("buy_me_a_coffee");
+        if (element) {
+            element.parentNode.removeChild(element);
+        }
+    }
+
     sendMessage({ worshipping: "?" }).then((response) => {
         console.log("Received response: ", response);
         document.getElementById('worshiperCheckbox').checked = (response.worshipping ?? "yes") !== "no";

@@ -13,18 +13,18 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Azure Refresh Button Worshiper" id="1Xt-HY-uBw">
+                            <menuItem title="Cerulean Refresh Button Worshiper" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Azure Refresh Button Worshiper" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Cerulean Refresh Button Worshiper" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Azure Refresh Button Worshiper" id="5kV-Vb-QxS">
+                                        <menuItem title="About Cerulean Refresh Button Worshiper" id="5kV-Vb-QxS" userLabel="About Cerulean Refresh Button Worshiper">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Hide Azure Refresh Button Worshiper" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Cerulean Refresh Button Worshiper" keyEquivalent="h" id="Olw-nP-bQN" userLabel="Hide Cerulean Refresh Button Worshiper">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -42,7 +42,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Azure Refresh Button Worshiper" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Cerulean Refresh Button Worshiper" keyEquivalent="q" id="4sb-4s-VLi" userLabel="Quit Cerulean Refresh Button Worshiper">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -66,7 +66,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController showSeguePresentationStyle="single" id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Azure Refresh Button Worshiper" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Cerulean Refresh Button Worshiper" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" id="IQv-IB-iLA" userLabel="Cerulean Refresh Button Worshiper">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowCollectionBehavior key="collectionBehavior" fullScreenNone="YES"/>
                         <rect key="contentRect" x="196" y="240" width="585" height="540"/>

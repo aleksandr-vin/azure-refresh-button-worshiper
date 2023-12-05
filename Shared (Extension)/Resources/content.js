@@ -79,6 +79,6 @@
         resetWorshipTimer();
     });
 
-    console.debug("Azure Refresh Button Worshiper entered the room", window.location.href);
+    console.debug("Cerulean Refresh Button Worshiper entered the room", window.location.href);
     resetWorshipTimer();
 }
