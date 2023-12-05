@@ -1,6 +1,6 @@
 {
     "extension_name": {
-        "message": "Cerulean Refresh Button Worshiper",
+        "message": "Refresh Button Worshiper",
         "description": "The display name for the extension."
     },
     "extension_description": {
@@ -37,7 +37,7 @@
     },
     "like_part": {
         "message": "Like",
-        "description": "The begining of 'Like Cerulean Refresh Button Worshiper?' question"
+        "description": "The begining of 'Like Refresh Button Worshiper?' question"
     },
     "site": {
         "message": "site",
