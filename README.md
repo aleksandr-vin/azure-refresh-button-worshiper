@@ -5,10 +5,10 @@
 It waits 10s after you stop moving mouse or typing keyboard, then clicks on **Refresh** button on the page.
 Only on `https://*.azure.com/*`.
 
-[Install extension from App Store (TBD)](https://aleksandr.vin/a-link-to-app-store)
+![Refresh Button Worshiper in action](post-video.gif)
 
-Check on video:
+You can install extension from:
+- [App Store (TBD)](https://aleksandr.vin/a-link-to-app-store)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/refresh-button-worshiper/ffifkamlageigkonfgjdildmdkpmjhde)
 
-[![Refresh Button Worshiper in action](post-video.gif)](https://aleksandr.vin/a-link-to-app-store)
-
-Read small post on how it appeared: on [https://aleksandr.vin](https://aleksandr.vin/2023/11/26/azure-refresh-button-worshiper.html).
+Read a post on how it appeared on [https://aleksandr.vin](https://aleksandr.vin/2023/11/26/azure-refresh-button-worshiper.html).
