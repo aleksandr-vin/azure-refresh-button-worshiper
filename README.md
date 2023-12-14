@@ -8,7 +8,7 @@ Only on `https://*.azure.com/*`.
 ![Refresh Button Worshiper in action](post-video.gif)
 
 You can install extension from:
-- [App Store (TBD)](https://aleksandr.vin/a-link-to-app-store)
+- [App Store](https://apps.apple.com/app/refresh-button-worshiper/id6473451531)
 - [Chrome Web Store](https://chromewebstore.google.com/detail/refresh-button-worshiper/ffifkamlageigkonfgjdildmdkpmjhde)
 
 Read a post on how it appeared on [https://aleksandr.vin](https://aleksandr.vin/2023/11/26/azure-refresh-button-worshiper.html).
